@@ -9,7 +9,8 @@
         
     <style>
         body {
-            
+            position: absolute;
+            width: 100%;
             background-color: grey;
             margin: 0;
             text-align: center;
@@ -31,6 +32,9 @@
         }
         
         .Title {
+            width: 100%;
+            padding: 0;
+            margin: 0;
             font-size: 30px;
             color:#d3d3d4
         }
@@ -40,10 +44,9 @@
             display: inline
         }
         
-        .Title img {
+        .Title img , video {
             width: 200px;
-            margin-left: 20px;
-            margin-right: 20px;
+            margin: 20px;
         }
         
         .Title ul {
@@ -52,7 +55,7 @@
             display: inline-block;
         }
         
-        .Title ul img {
+        .Title ul img, video {
             border-style: 2px solid grey;
             box-shadow: 0px 0px 8px grey; 
             -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
@@ -61,6 +64,7 @@
         }
         
         .Contact {
+            text-align: center;
             display: inline;
         }
         
@@ -81,11 +85,15 @@
         
         <div class="Title">
             <h1> Hit The Box - The Game</h1>
+            
             <ul>
                 <li><img src="HTBScreenShot1.jpg"></li>
                 <li><img src="HTBScreenShot2.jpg"></li>
+                <li><video width="200px" height="320" controls><source src="Ipad%20Preview%20Cut.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+                
                 <li><img src="HTBScreenShot3.jpg"></li>
                 <li><img src="HTBScreenShot4.jpg"></li>
+                
             </ul>
             
             
