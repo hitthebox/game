@@ -12,53 +12,35 @@
         
     <style>
         body {
-            position: absolute;
-            width: 100%;
             background-color: grey;
             margin: 0;
             text-align: center;
             padding-bottom: 70px;
         }
         
-        .MainImage {
-            padding-top: 20px;
-            
-        }
-        
         .MainImage img {
+            margin-top: 25px;
             border-style: 2px solid grey;
             box-shadow: 0px 0px 8px grey; 
             -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
             -ms-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
             -o-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-            height: 400px;
+            max-height: 400px;
         }
         
         .Title {
             width: 100%;
-            padding: 0;
-            margin: 0;
             font-size: 30px;
             color:#d3d3d4
         }
         
-        .Title li {
-            list-style: none;
-            display: inline
+        .Preview {
+            padding: 40px;
         }
         
-        .Title img , video {
+        .Preview img , video {
             width: 200px;
             margin: 20px;
-        }
-        
-        .Title ul {
-            width: 100%;
-            height: 300px;
-            display: inline-block;
-        }
-        
-        .Title ul img, video {
             border-style: 2px solid grey;
             box-shadow: 0px 0px 8px grey; 
             -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
@@ -66,19 +48,16 @@
             -o-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
         }
         
-        .Contact {
+        .Contact a {
             text-align: center;
             display: inline;
-        }
-        
-        .Contact a {
             color:beige;
             font-size: 22px;
         }
         
-        
         </style>
     </head>
+    
     
     <body>
         
@@ -88,21 +67,21 @@
         
         <div class="Title">
             <h1> Hit The Box - The Game</h1>
-            
-            <ul>
-                <li><img src="HTBScreenShot1.jpg"></li>
-                <li><img src="HTBScreenShot2.jpg"></li>
-                <li><video width="200px" height="320" controls><source src="Iphone%20Preview%20cut.mp4" type="video/mp4">Your browser does not support the video tag.</video></li>
+        
+           <div class="Preview">
+                <video width="200px" height="320" controls><source src="Iphone%20Preview%20cut.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+                <img src="HTBScreenShot1.jpg">
+                <img src="HTBScreenShot2.jpg">
+                <img src="HTBScreenShot3.jpg">
+                <img src="HTBScreenShot4.jpg">
+               </div>
                 
-                <li><img src="HTBScreenShot3.jpg"></li>
-                <li><img src="HTBScreenShot4.jpg"></li>
-                
-            </ul>
             
             
-            <h4>Available for Android </h4>
+            
+            <h4>Available on iOS and Android.</h4>
+             <a href= "https://itunes.apple.com/us/app/hit-the-box/id1209115164?ls=1&mt=8" > <img src="appStore.png"></a>
             <a href= "https://play.google.com/store/apps/details?id=com.schvegler.hitthebox" > <img src="googlePlay.png"></a>
-            <h4>Other platforms coming soon</h4>
            
         </div>
         
