@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+        <script>
+        $(document).ready(function (){
+         if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
+             window.location.href = "https://play.google.com/store/apps/details?id=com.schvegler.hitthebox";
+         }
+         if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
+             window.location.href = "https://itunes.apple.com/us/app/hit-the-box/id1209115164?ls=1&mt=8"';
+         }
+        });
+        </script>
+        
         <title>Hit The Box</title>
         <meta name="description" content="Hit The Box the game"/>
         <meta property="og:title" content="Hit The Box" />
